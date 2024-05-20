@@ -1,0 +1,12 @@
+
+.DS_Store
+
+gen-me-BE/gradle/wrapper/gradle-wrapper.jar
+
+gen-me-BE/gradle/wrapper/gradle-wrapper.properties
+
+gen-me-BE/gradlew
+
+gen-me-BE/gradlew.bat
+
+gen-me-BE/settings.gradle
