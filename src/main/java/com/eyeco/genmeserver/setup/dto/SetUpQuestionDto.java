@@ -1,8 +1,7 @@
-package com.eyeco.genmeserver.dto;
+package com.eyeco.genmeserver.setup.dto;
 
-import com.eyeco.genmeserver.entity.SetUpQuestion;
+import com.eyeco.genmeserver.setup.entity.SetUpQuestion;
 import lombok.Data;
-import lombok.Getter;
 
 /**
  *  셋업 단계 초기 질문 설정을 위한 DTO 클래스

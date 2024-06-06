@@ -1,4 +1,4 @@
-package com.eyeco.genmeserver.entity;
+package com.eyeco.genmeserver.participant.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

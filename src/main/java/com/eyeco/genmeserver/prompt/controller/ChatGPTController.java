@@ -1,8 +1,8 @@
 package com.eyeco.genmeserver.prompt.controller;
 
-import com.eyeco.genmeserver.dto.CompletionDto;
-import com.eyeco.genmeserver.dto.PromptingRequest;
-import com.eyeco.genmeserver.dto.PromptingResponse;
+import com.eyeco.genmeserver.prompt.dto.gpt.CompletionDto;
+import com.eyeco.genmeserver.prompt.dto.PromptingRequest;
+import com.eyeco.genmeserver.prompt.dto.PromptingResponse;
 import com.eyeco.genmeserver.prompt.service.ChatGPTService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

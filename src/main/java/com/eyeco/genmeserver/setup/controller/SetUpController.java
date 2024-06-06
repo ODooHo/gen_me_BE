@@ -1,7 +1,7 @@
 package com.eyeco.genmeserver.setup.controller;
 
 import com.eyeco.genmeserver.dto.ResponseDto;
-import com.eyeco.genmeserver.dto.SetUpQuestionDto;
+import com.eyeco.genmeserver.setup.dto.SetUpQuestionDto;
 import com.eyeco.genmeserver.setup.service.SetUpQuestionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

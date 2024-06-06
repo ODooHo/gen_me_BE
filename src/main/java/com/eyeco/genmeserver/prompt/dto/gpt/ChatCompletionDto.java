@@ -1,4 +1,4 @@
-package com.eyeco.genmeserver.dto;
+package com.eyeco.genmeserver.prompt.dto.gpt;
 
 import lombok.*;
 

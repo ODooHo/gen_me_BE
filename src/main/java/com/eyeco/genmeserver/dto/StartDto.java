@@ -1,8 +1,8 @@
 package com.eyeco.genmeserver.dto;
 
-import com.eyeco.genmeserver.entity.Game;
-import com.eyeco.genmeserver.entity.Participant;
-import com.eyeco.genmeserver.entity.User;
+import com.eyeco.genmeserver.game.entity.Game;
+import com.eyeco.genmeserver.participant.entity.Participant;
+import com.eyeco.genmeserver.user.entity.User;
 import lombok.Getter;
 
 /**

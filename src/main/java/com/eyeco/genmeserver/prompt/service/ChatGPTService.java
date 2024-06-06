@@ -1,12 +1,14 @@
 package com.eyeco.genmeserver.prompt.service;
 
 import com.eyeco.genmeserver.common.config.ChatGPTConfig;
-import com.eyeco.genmeserver.dto.*;
-import com.eyeco.genmeserver.entity.SetUpAnswer;
+import com.eyeco.genmeserver.prompt.dto.*;
+import com.eyeco.genmeserver.prompt.dto.gpt.ChatCompletionDto;
+import com.eyeco.genmeserver.prompt.dto.gpt.ChatRequestDto;
+import com.eyeco.genmeserver.prompt.dto.gpt.CompletionDto;
+import com.eyeco.genmeserver.setup.entity.SetUpAnswer;
 import com.eyeco.genmeserver.setup.repository.SetUpAnswerRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

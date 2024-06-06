@@ -1,10 +1,13 @@
 package com.eyeco.genmeserver.game.controller;
 
-import com.eyeco.genmeserver.dto.SetUpQuestionDto;
+import com.eyeco.genmeserver.game.service.GameService;
+import com.eyeco.genmeserver.setup.dto.SetUpQuestionDto;
 import com.eyeco.genmeserver.dto.ResponseDto;
 import com.eyeco.genmeserver.setup.service.SetUpQuestionService;
+import com.eyeco.genmeserver.user.dto.UserDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,15 +17,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("/api/v1/game")
 public class GameController {
-    private final SetUpQuestionService setUpQuestionService;
+    private final GameService gameService;
 
     private String message;
 
-    @PostMapping()
-    public ResponseDto<Void> inputData(SetUpQuestionDto setUpQuestionDto){
-        setUpQuestionService.setUp(setUpQuestionDto);
-        return ResponseDto.success();
+    @PostMapping("/create")
+    public String createGame(@RequestBody UserDto userDto){
+        gameService.createGame(userDto);
+
     }
+
+    @PostMapping("/join")
+    public GameDto joinGame(@RequestBody UserDto userDto)
 
 }

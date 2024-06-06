@@ -1,7 +1,7 @@
 package com.eyeco.genmeserver.setup.service;
 
-import com.eyeco.genmeserver.dto.SetUpQuestionDto;
-import com.eyeco.genmeserver.entity.SetUpQuestion;
+import com.eyeco.genmeserver.setup.dto.SetUpQuestionDto;
+import com.eyeco.genmeserver.setup.entity.SetUpQuestion;
 import com.eyeco.genmeserver.setup.repository.SetUpQuestionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
